@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import AppBar from './components/appbar/AppBar';
 import Left from './components/left/Left';
 import Right from './components/right/Right';
-import './app.css';
+import './App.css';
 
 function App() {
   return (

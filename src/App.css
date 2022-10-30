@@ -1,0 +1,16 @@
+.main {
+   
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 87vh;
+}
+
+.left {
+    background-color: yellow;
+    width: 100%;
+}
+
+.right {
+    background-color: green;
+    width: 75%;
+}

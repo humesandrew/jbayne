@@ -1,4 +1,4 @@
-import Avatar from '@mui/material/Avatar';
+
 import resumeData from "../../resumeData.js";
 
 

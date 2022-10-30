@@ -23,7 +23,7 @@ export default function ButtonAppBar() {
             sx={{ mr: 2 }}
           >
           </IconButton>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
             Jackie Bayne
           </Typography>
           <Button color="inherit">Ophthalmic Professional</Button>

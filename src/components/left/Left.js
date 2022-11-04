@@ -1,6 +1,6 @@
 
 import resumeData from "../../resumeData.js";
-
+import './left.scss';
 
 function Left() {
     return (

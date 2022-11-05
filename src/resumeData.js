@@ -1,10 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://humesandrew.github.io/",
-    "name": "Andy Humes",
-    "image":"img/Andy_2(profile).jpg",
-    "role": "Full Stack Developer",
+    "name": "Jackie Bayne",
+    "image":"img/profilepic.jpg",
+    "role": "Regional Director",
+    "company": "Panorama Eye Care",
     "resume":"img/Andy_Humes_resume.pdf",
-    "linkedinId":"andy-humes-72075559",
+    "linkedin":"https://www.linkedin.com/in/jackie-bayne-bs-coa-155b20174/",
 }
 
 export default resumeData

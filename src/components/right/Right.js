@@ -1,24 +1,33 @@
-
-
-  import Typography from '@mui/material/Typography';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import { styled } from '@mui/material/styles';
 
 import './right.scss';
 
-function Right() {
-    return (
-      <div className="right">
-      <div className='contact'>
 
-<Typography variant="h6" > Connect </Typography>
-</div>
-<a href="https://www.linkedin.com/in/jackie-bayne-bs-coa-155b20174/" class="btn btn--gradient btn--xlrg" target="_blank" title="resume" rel="noreferrer"><span class="btn__text">Resume</span></a>
-<a href="mailto:jbayne@gmail.com" class="btn btn--gradient btn--xlrg" target="_blank" title="email" rel="noreferrer"><span class="btn__text">Email</span></a>
-<a href="https://www.linkedin.com/in/jackie-bayne-bs-coa-155b20174/" class="btn btn--gradient btn--xlrg" target="_blank" title="linkedin" rel="noreferrer"><span class="btn__text">LinkedIn</span></a>
-<a href="https://www.linkedin.com/in/jackie-bayne-bs-coa-155b20174/" class="btn btn--gradient btn--xlrg" target="_blank" title="facebook" rel="noreferrer"><span class="btn__text">Facebook</span></a>
 
-     
-      </div>
-    );
-  }
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
 
-  export default Right
+export default function Right() {
+  return (
+    <Box sx={{ width: '100%', textAlign: 'center' }}>
+           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>Connect</Typography>
+
+      <Stack spacing={2} className='connectDiv'>
+        <Item>Item 1</Item>
+        <Item>Item 2</Item>
+        <Item>Item 3</Item>
+        <Item>Item 4</Item>
+      </Stack>
+    </Box>
+  );
+}

@@ -22,12 +22,12 @@ export default function Right() {
   return (
     
     <Box sx={{ width: '100%', textAlign: 'center' }} >
-      
+      <div className='connectDiv'>
            <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>Connect</Typography>
-           <div className='connectDiv'>
+           
       <Stack spacing={4} sx={{width: '85%'}} >
       
-        <Item>Item 1</Item>
+        <Item >Item 1</Item>
         <Item>Item 2</Item>
         <Item>Item 3</Item>
         <Item>Item 4</Item>
